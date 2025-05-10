@@ -1,0 +1,22 @@
+PODS:
+  - Saiga (1.0.0)
+  - WiseFields (1.0.0):
+    - Saiga
+
+DEPENDENCIES:
+  - Saiga (from `LocalPods`)
+  - WiseFields (from `LocalPods`)
+
+EXTERNAL SOURCES:
+  Saiga:
+    :path: LocalPods
+  WiseFields:
+    :path: LocalPods
+
+SPEC CHECKSUMS:
+  Saiga: d781df3a13c402525ddc89fddb68ad677a0bf4c0
+  WiseFields: 4dcec9ba6be59efe1d8bf6928187130afb3d600f
+
+PODFILE CHECKSUM: db9957a78ab8228736673037534d9ee5e6e17a60
+
+COCOAPODS: 1.16.2

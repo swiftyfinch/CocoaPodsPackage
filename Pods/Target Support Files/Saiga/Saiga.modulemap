@@ -1,0 +1,6 @@
+framework module Saiga {
+  umbrella header "Saiga-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Saiga",
+  "version": "1.0.0",
+  "summary": "none",
+  "homepage": "none",
+  "authors": "SwiftyFinch",
+  "source": {
+    "path": "*"
+  },
+  "platforms": {
+    "ios": "16.0"
+  },
+  "static_framework": true,
+  "prefix_header_file": false,
+  "source_files": "Saiga/Sources/**/*.swift",
+  "pod_target_xcconfig": {
+    "OTHER_SWIFT_FLAGS": "-package-name Core"
+  }
+}
